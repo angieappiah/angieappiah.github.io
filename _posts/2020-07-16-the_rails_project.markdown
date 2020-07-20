@@ -15,13 +15,18 @@ Bibini Gh Tour Guide was built using Ruby on Rails, no scaffolding was used to b
 These are the gems I added to my gemfile.
 
 gem ‘omniauth’
+
 gem ‘omniauth-facebook’
+
 gem ‘bycrypt’
 
 I used Omniauth to authenticate with Facebook. OmniAuth is a gem for Rails that lets you use multiple authentication providers alongside the more traditional username/password setup. I run bundle install to update these gems.
 
 I created a config/initializers/omniauth.rb file, that helps configure the authentication provider. this file contains ; 
-provider :facebook, ENV['FACEBOOK_KEY'], ENV['FACEBOOK_SECRET']. The facebook_key and Facebook_secret are generated once you sign up as a facebook developer.
+
+provider :facebook, ENV['FACEBOOK_KEY'], ENV['FACEBOOK_SECRET']. 
+
+The facebook_key and Facebook_secret are generated once you sign up as a facebook developer.
 
 
 **Validations**
@@ -38,7 +43,7 @@ class User < ApplicationRecord
     validates :email, presence: true, uniqueness: true
 end
 
-Creating The** Views**
+Creating The **Views**
 
 The Views folder is where users interacts with my app. I used partials to simplify my views and to keep it DRY. 
 
