@@ -14,11 +14,11 @@ Bibini Gh Tour Guide was built using Ruby on Rails, no scaffolding was used to b
  
 These are the gems I added to my gemfile.
 
-gem ‘omniauth’
+gem ‘omniauth’.
 
-gem ‘omniauth-facebook’
+gem ‘omniauth-facebook’.
 
-gem ‘bycrypt’
+gem ‘bycrypt’.
 
 I used Omniauth to authenticate with Facebook. OmniAuth is a gem for Rails that lets you use multiple authentication providers alongside the more traditional username/password setup. I run bundle install to update these gems.
 
@@ -48,6 +48,7 @@ Creating The **Views**
 The Views folder is where users interacts with my app. I used partials to simplify my views and to keep it DRY. 
 
 **The Scope Method**
+
 Scopes are custom queries, defined inside the models that queries data from the database. I used
 
 scope :long_names, -> { where("LENGTH(name) < 30") } in my project, to give me all location names where the number of letters in their names are less than thirty.
