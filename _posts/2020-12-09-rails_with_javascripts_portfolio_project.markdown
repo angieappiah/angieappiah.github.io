@@ -7,7 +7,7 @@ permalink:  rails_with_javascripts_portfolio_project
 
 **ABOUT MY PROJECT**
 
-My previous projects revolved around a tour guide for Ghana, as this is something I would want to make a reality. For this project I decided to build upon the tour guide in my rails  project using Javascript to add dynamic features and expand the concept based on the requirement of this project. The title of this project is The Year Of Return, It is a tour guide that displays top 10 popular sites in Ghana with descriptions and functions that makes it user interactive.
+My previous projects revolved around a tour guide for Ghana, as this is something I would want to make a reality. For this project I decided to build upon the tour guide in my rails  project using Javascript to add dynamic features and expand the concept based on the requirement of this project. The title of this project is The Year Of Return, It is a tour guide that shows visitors some popular sites in the cape coast castle in Ghana with descriptions and functions that makes it user interactive.
 
 I made thumbnail sketches of how I wanted the outcome, printed the project requirements and kept it handy. I used a simple set up guide from [https://github.com/learn-co-students/js-spa-project-instructions-online-web-sp-000/blob/master/setup-walkthrough.md](http://) which gave a walkthrough on setting up the entire project.  I watched the videos by Cernan Bernardo [https://instruction.learn.co/student/video_lectures#/311](http://) which was concise and made it super easy to follow. I got inspiration from instructor Michael Doherty's videos on Youtube as well. 
 
